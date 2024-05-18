@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,12 +27,11 @@
                         <li><a href="products.html">Products</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Contact</a></li>
-                        <li><a href="account.html">Account</a></li>
-
+                        <li><a href="login.php">Sign in</a></li>
                     </ul>
                 </nav>
                 <a href="cart.html"><img src="" width="30px" height="30px"></a>
-                <img src="" class="menu-icon" onClick="menutoggle()">
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -41,37 +40,49 @@
                     <p>Marathon speed to push beyond what you thought possible.</p>
                     <a href="products.html" class="btn">Click for more &#8594;</a>
                 </div>
-                <div class="col-2">
-                    <img src="">
-                </div>
+            <div class="col-2">
+                <!-- Embedded video with autoplay -->
+                <iframe width="560" height="315" src="images/Only Basketball _ Nike.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    autoplay></iframe>
+            </div>
+
             </div>
         </div>
     </div>
 
-    <!------------------------------ featured categories------------------------------>
+    <!-- Featured categories -->
     <div class="categories">
         <div class="small-container">
+            <h2 class="title">Featured Categories</h2>
             <div class="row">
+                <!-- Category 1 -->
                 <div class="col-3">
-                    <img src="images/nike1.png">
+                    <h3>Running Shoes</h3>
+                    <a href="running_shoes.html"><img src="images/nike1.png"></a>
                 </div>
+                <!-- Category 2 -->
                 <div class="col-3">
-                    <img src="images/nike2.png">
+                    <h3>Basketball Shoes</h3>
+                    <a href="basketball_shoes.html"><img src="images/nike2.png"></a>
                 </div>
+                <!-- Category 3 -->
                 <div class="col-3">
-                    <img src="images/nike3.png">
+                    <h3>Sportswear</h3>
+                    <a href="sportswear.html"><img src="images/nike3.png"></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!------------------------------ featured Products------------------------------>
+    <!-- Featured Products -->
     <div class="small-container">
         <h2 class="title">Featured Products</h2>
         <div class="row">
+            <!-- Product 1 -->
             <div class="col-4">
-                <a href="products-details.html"><img src="images/nike4.png"></a>
-                <a href="products-details.html">
+                <a href="product-details.html"><img src="images/nike4.png"></a>
+                <a href="product-details.html">
                     <h4>Jordan Stadium 90</h4>
                 </a>
                 <div class="rating">
@@ -83,8 +94,9 @@
                 </div>
                 <p>₱ 7,895</p>
             </div>
+            <!-- Product 2 -->
             <div class="col-4">
-                <a href="products-details.html"><img src="images/nike5.png"></a>
+                <a href="product-details.html"><img src="images/nike5.png"></a>
                 <h4>Jordan Max Aura 5</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -95,8 +107,9 @@
                 </div>
                 <p>₱ 7,395</p>
             </div>
+            <!-- Product 3 -->
             <div class="col-4">
-                <a href="products-details.html"><img src="images/nike6.png"></a>
+                <a href="product-details.html"><img src="images/nike6.png"></a>
                 <h4>Jordan Flight MVP</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -107,8 +120,9 @@
                 </div>
                 <p>₱ 5,395</p>
             </div>
+            <!-- Product 4 -->
             <div class="col-4">
-                <a href="products-details.html"><img src="images/nike7.png"></a>
+                <a href="product-details.html"><img src="images/nike7.png"></a>
                 <h4>Nike SB Janoski+ Slip</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -120,59 +134,39 @@
                 <p>₱ 4,650</p>
             </div>
         </div>
+    </div>
 
-
-        <h2 class="title">Latest Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <a href="products-details.html"><img src="images/product-5.jpg"></a>
-                <h4>Flat Heel gray hoes</h4>
-                <div class="rating">
-                    
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Terms and Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
                 </div>
-                <p>₱ 4,650</p>
-            </div>
-            <div class="col-4">
-                <a href="products-details.html"><img src="images/product-3.jpg"></a>
-                <h4>Lace-Fastening black Shoes</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
+                <div class="col-4">
+                    <h3>Support</h3>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>FAQs</li>
+                    </ul>
                 </div>
-                <p>₱ 4,650</p>
-            </div>
-            <div class="col-4">
-                <a href="products-details.html"><img src="images/product-7.jpg"></a>
-                <h4>HRX Men's cotton socks</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                <div class="col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
                 </div>
-                <p>₱ 4,650</p>
-            </div>
-            <div class="col-4">
-                <a href="products-details.html"><img src="images/product-2.jpg"></a>
-                <h4>Lace-Up Running Shoes</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
                 </div>
-                <p>₱ 4,650</p>
-            </div>
-        </div>
-</body>
-</html>
+                </div>
+                </footer>
+                
+                </body>
+                
+                </html>
